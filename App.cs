@@ -13,7 +13,7 @@ namespace Test
             builder.SceneTemplate("hello", scene =>
             {
                 //Adds an handler executed whenever a peer connects to the scene.
-                scene.OnConnected.Add(async peer=>{
+                scene.Connected.Add(async peer=>{
                   //Sends the string "hello world!" to the peer that just connected.
                   peer.Send("msg",s=> peer.Serializer().Serialize("hello world!",s), PacketPriority.MEDIUM_PRIORITY, PacketReliability.RELIABLE);
                 });
