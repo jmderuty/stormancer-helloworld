@@ -12,5 +12,5 @@ For a working javascript sample, see [this jsfiddle][1]. The javascript client u
 5. Just look at the result window.
 
 
-1: http://jsfiddle.net/jmderuty/o7faet2n/
-2: http://www.stormancer.com/documentation/deploying-with-git
+[1]: http://jsfiddle.net/jmderuty/o7faet2n/
+[2]: http://www.stormancer.com/documentation/deploying-with-git
